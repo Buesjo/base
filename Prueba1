@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería El Martillo - URREA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="urrea_logo.png" alt="URREA Logo"> Ferretería El Martillo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="productos" class="section">
+            <div class="container">
+                <h2>Nuestros productos</h2>
+                <!-- Productos -->
+                <div class="producto">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Llave ajustable URREA</h3>
+                    <p>Descripción del producto.</p>
+                    <p>Precio: $XX.XX</p>
+                </div>
+                <div class="producto">
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <h3>Martillo de carpintero</h3>
+                    <p>Descripción del producto.</p>
+                    <p>Precio: $XX.XX</p>
+                </div>
+                <!-- Más productos -->
+            </div>
+        </section>
+        <section id="nosotros" class="section">
+            <div class="container">
+                <h2>Nosotros</h2>
+                <p>Aquí puedes agregar información sobre la historia y misión de la ferretería.</p>
+            </div>
+        </section>
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                <p>Teléfono: (123) 456-7890</p>
+                <p>Correo electrónico: info@ferreteriaelmartillo.com</p>
+                <p>Síguenos en redes sociales: <a href="https://facebook.com/ferreteriaelmartillo">Facebook</a>, <a href="https://instagram.com/ferreteriaelmartillo">Instagram</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ferretería El Martillo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
